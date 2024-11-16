@@ -1,0 +1,60 @@
+.popular-section1{
+    width: 100%;
+    overflow: hidden;
+}
+.popular-main-blog{
+    flex: 1;
+    overflow: hidden;
+}
+.popular-main-blog img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.popular-main-blog .popular-header h6{
+    color : #6941C6;
+    font-weight: bold;
+}
+.popular-main-blog .popular-desc{
+    color: #667085;
+}
+.popular-main-blog .popular-tags .tag{
+    color : #6941C6;
+    background-color: #EEF4FF;
+    border-radius: 8px;
+}
+.pop-side{
+    flex: 1;
+    overflow: hidden;
+}
+.pop-side-img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.pop-side-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pop-side-data{
+    width: 80%;
+}
+.pop-side-data h4{
+    color: #6941C6;
+    font-size: 14px;   
+}
+.pop-side-data h3{
+    font-size: 16px;
+}
+.pop-side-data p{
+    color: #667085;
+    font-size: 13px;
+}
+.pop-side-data .pop-side-tags .tag{
+    display: inline-block;
+    background-color: #FDF2FA;
+    font-size: 12px;
+    border-radius: 6px;
+    color :#C11574;
+}

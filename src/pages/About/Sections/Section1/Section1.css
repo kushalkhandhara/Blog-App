@@ -1,0 +1,42 @@
+.aboutSec1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutSec1 .aboutSec1-header h2{
+    color : #213343;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.aboutSec1 .aboutSec1-header p{
+    color : #667085;
+    font-size: 14px;
+    line-height: 1.3;
+}
+.aboutSec1 .aboutSec1-header {
+    flex: 1;
+    width: 100%;
+}
+.aboutSec1 .aboutSec1-img{
+    flex: 1.2;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.aboutSec1 .aboutSec1-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width:900px){
+    .aboutSec1 .aboutSec1-header h2{
+        color : #213343;
+        font-size: 21px;
+    }
+    .aboutSec1{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}

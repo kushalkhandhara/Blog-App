@@ -1,0 +1,16 @@
+.header {
+    margin-top: 150px !important;
+    width: 100vw; /* Ensures header takes full viewport width */
+    margin: 0;
+    text-align: center;
+    border-top: 1px solid #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+.header h1{
+    display: block; /* Makes sure the <p> is block-level */
+    margin: 0; /* Removes default margin */
+    width: 100%; /* Full width inside container */
+    font-size: 18vw; /* Adjust until it fits the width */
+    color: #1A1A1A;
+}

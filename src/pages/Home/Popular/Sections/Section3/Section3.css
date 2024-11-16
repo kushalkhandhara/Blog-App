@@ -1,0 +1,45 @@
+.pop-section3{
+    width: 100%;
+    overflow: hidden;
+}
+.pop-section3 .pop-section3-blog {
+    width: 30%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.pop-section3 .pop-section3-blog .pop-section3-img{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+.pop-section3 .pop-section3-blog .pop-section3-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pop-section3 .pop-section3-blog .pop-section3-data h6{
+    color : #6941C6;
+    font-weight: bold;
+    font-size: 16px;
+}
+.pop-section3 .pop-section3-blog .pop-section3-data p{
+    font-size: 14px;
+    color: #667085;
+}
+.pop-sec-3tags span{
+    color :#C11574;
+    background-color: #FDF2FA;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 4px;
+    font-size: 12px;
+}
+
+@media (max-width: 900px) {
+
+    .pop-section3 .pop-section3-blog {
+        width: 100%;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}

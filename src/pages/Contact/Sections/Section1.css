@@ -1,0 +1,71 @@
+.contactSec1 .contactSec1-form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.contactSec1 .contactSec1-form .nameData{
+    display: flex;
+    gap: 40px;   
+}
+.contactSec1 .contactSec1-form .nameData .contactSec1-name{
+    flex: 1;
+    margin-bottom: 5px;
+}
+.contactSec1 .contactSec1-form .nameData .contactSec1-name h4{
+    color : #8D8D8D;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16px;  
+}
+.contactSec1 .contactSec1-form .nameData .contactSec1-name input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #8D8D8D;
+    padding: 6px;
+    width: 100%;
+}
+.contactSec1 .contactSec1-form .nameData .contactSec1-name input::placeholder{
+    color: #8D8D8D;
+    font-size: 12px;
+}
+.contactSec1 .contactSec1-form .nameData .contactSec1-name input:focus{
+    border-bottom: 2px solid black;
+}
+.contactSec1 .contactSec1-form .textArea .contactSec1-msg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contactSec1 .contactSec1-form .textArea .contactSec1-msg h4{
+    color : #8D8D8D;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16px;  
+}
+.contactSec1 .contactSec1-form .textArea .contactSec1-msg textarea{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #8D8D8D;
+    padding: 6px;
+    width: 100%;
+    resize: none;
+}
+.contactSec1 .contactSec1-form .textArea .contactSec1-msg textarea:focus{
+    border-bottom: 2px solid black;
+}
+.contactSec1 .contactSec1-form button{
+    margin-top: 24px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+@media (max-width:900px){
+    .contactSec1 .contactSec1-form .nameData{
+        gap: 20px;   
+    }
+}
