@@ -1,8 +1,32 @@
-# React + Vite
+#### I have used React Framework and For Styling I have used BootStrap,CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+#### Please Install Node Js in Your PC befor Accessing the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+[Node Js Installation](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)
+
+
+## Step 1:
+
+Clone Repository
+
+```bash
+  git clone <repo_link>
+```
+## Step 2 : 
+Get Into the folder
+```bash
+   cd assigment
+```
+## Step 3
+Install Node Modules
+```bash
+    npm install
+```
+## Step 4
+Run the Project
+```bash
+    npm run dev
+```
+
