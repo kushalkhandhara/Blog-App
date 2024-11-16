@@ -17,7 +17,7 @@ Clone Repository
 ## Step 2 : 
 Get Into the folder
 ```bash
-   cd assigment
+   cd folderName
 ```
 ## Step 3
 Install Node Modules
